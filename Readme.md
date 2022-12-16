@@ -12,12 +12,12 @@ clement.legrand4.etu@univ-lille.fr.
 
 ## Features (added to the jMetalPy framework):
 
-# Patterns
+### Patterns
 For now, patterns are the main characteristics that can be extracted from solutions. 
 The module jmetal.core.pattern contains all important details concerning patterns.
 Inside it, you can find a class Pattern, representing patterns themselves, and a class StorePatterns, that can be used to update and store patterns. 
 
-# New operators
+### New operators
 Two knowledge discovery operators have been added (for extraction and injection). 
 Moreover localSearch operators for routing problems (vrptw) have been added too. 
 These operators can be found in the module jmetal.operator
@@ -32,7 +32,7 @@ These operators can be found in the module jmetal.operator
     * It combines three classical operators (Swap, Relocate and 2-opt*)
     * Two exploration strategies are available (either "First-Best" or "Best-Best")
 
-# Miscellaneous
+### Miscellaneous
 - There is now a class RoutingSolution, that is a specific case of PermutationSolution, and contains relevant information when solving routing problems (e.g. sequences, routes)
 
 - The class Job (from the module jmetal.experiment) has been slightly modified to generate also a file containing statistics of the execution (like running times of functions and number of times it has been executed, but also the average improvement of operators)
